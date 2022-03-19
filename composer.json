@@ -27,12 +27,12 @@
         "psr-4": {"fivefilters\\Readability\\Test\\": "test"}
     },
     "require": {
-        "php": ">=7.3.0",
+        "php": "^7.3|^8.0",
         "ext-dom": "*",
         "ext-xml": "*",
         "ext-mbstring": "*",
-        "psr/log": "^1.0",
-        "masterminds/html5": "^2.0",
+        "psr/log": "^1.0|^2.0|^3.0",
+        "masterminds/html|5": "^2.0",
         "league/uri": "^6.4"
     },
     "require-dev": {
